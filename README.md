@@ -5,10 +5,10 @@ The purpose of this project wast to use Google collab, PySpark, Postgres/PgAdmin
 
 ## Results
 With over 3M reviews recorded, I first filtered the list down to a more manageable number. I did this by filtering the list down to those revies who had 20+ ratings, and where over 50% of the ratings indicated the review had been 'helpful' which led to the below list (by review ID):
-<review ID img>
+![Review_ID](https://github.com/Tbrecke01/Amazon_Vine_Analysis/blob/main/Images/review_id_df.png)
  
 From here, I divided the list between Vine and non-Vine reviews, the total number of 5-star reviews, and the calculated the percent of 5-star reviews for each Vine and non-Vine members. This showed the following results:
-  <vine_review_compare>
+![Vine_vs_nonVine](https://github.com/Tbrecke01/Amazon_Vine_Analysis/blob/main/Images/vine_review_compare.png)
  
 From this we can see that the vast majority of reviews(~50k non-Vine vs ~450 Vine) are posted by non-vine members and that, while Vine does tend to have slightly more 5-star reviews than non-Vine members (46% for Vine vs 42% for non-Vine), the number is far from substantial and can be explained by the sheer size discrepency between the two groups causing Vine reviews to be artificially inflated.
     
